@@ -33,6 +33,27 @@ The get command accepts the following arguments:
 
 # Configuration file
 
+The default configuration file is `.privx-secrets.toml` at user's home
+directory. If the home directory can not be resolved, the program
+tries to open the system wide default configuration filed called
+`/opt/etc/privx-secrets/privx-secrets.toml`. The configuration file
+location can be changed with the `-config` command line argument.
+
+## API configuration
+
+The `[api]` configuration block contains the PrivX API configuration
+information:
+
+ - `endpoint`: the PrivX API endpoint URL
+ - `certificate`: the CA root certificate issuing the REST API server
+   certificates. If this is unset, the application will use the
+   operating system's trusted CA certificates.
+
+## Authentication configuration
+
+The `[auth]` configuration block contains the API authentication
+credentials.
+
 # Examples
 
 Sample secret data for the secret `database`:
