@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/SSHcom/privx-secrets/api"
+	"github.com/SSHcom/privx-sdk-go/api"
 )
 
 func cmdLogin(client *api.Client) {

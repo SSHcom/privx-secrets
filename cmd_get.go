@@ -12,8 +12,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/SSHcom/privx-secrets/api"
-	"github.com/SSHcom/privx-secrets/api/vault"
+	"github.com/SSHcom/privx-sdk-go/api"
+	"github.com/SSHcom/privx-sdk-go/api/vault"
 )
 
 func cmdGet(client *api.Client) {
