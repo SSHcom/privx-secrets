@@ -33,11 +33,11 @@ The get command accepts the following arguments:
 
 # Configuration file
 
-The default configuration file is `.privx-secrets.toml` at user's home
+The default configuration file is `.privx-sdk.toml` at user's home
 directory. If the home directory can not be resolved, the program
 tries to open the system wide default configuration filed called
-`/opt/etc/privx-secrets/privx-secrets.toml`. The configuration file
-location can be changed with the `-config` command line argument.
+`/opt/etc/privx/privx-sdk.toml`. The configuration file location can
+be changed with the `-config` command line argument.
 
 ## API configuration
 
