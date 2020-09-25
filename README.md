@@ -1,5 +1,7 @@
 # privx-secrets
 
+**The command line application is not supported any more. Please use https://github.com/SSHcom/privx-cli**
+
 The `privx-secrets` is a command-line tool for accessing secrets,
 stored in the [PrivX](https://www.ssh.com/products/privx/) secrets
 vault.
